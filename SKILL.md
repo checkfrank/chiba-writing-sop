@@ -23,30 +23,30 @@ skill_source: local_project
 
 ### 分组 ① 信息获取
 
-| 技能 | 来源 | 功能 |
-|------|------|------|
-| `tencent-news` | clawhub | 抓取 48 小时内腾讯新闻热点，获取标题、摘要、来源 |
-| `smart-summarize` | clawhub | 对长新闻/长文生成结构化摘要，压缩关键信息 |
-| `web-search-exa` | clawhub | 使用 Exa 搜索引擎补充全网信息，获取深度背景 |
+| 技能 | 来源 | GitHub 地址 | 功能 |
+|------|------|-------------|------|
+| `tencent-news` | clawhub | <https://clawhub.dev/tencentnewsteam/tencent-news> | 抓取 48 小时内腾讯新闻热点，获取标题、摘要、来源 |
+| `smart-summarize` | clawhub | <https://clawhub.dev/quincygunter/smart-summarize> | 对长新闻/长文生成结构化摘要，压缩关键信息 |
+| `web-search-exa` | clawhub | <https://clawhub.dev/theishangoswami/web-search-exa> | 使用 Exa 搜索引擎补充全网信息，获取深度背景 |
 
 ### 分组 ② 深度研究
 
-| 技能 | 来源 | 功能 |
-|------|------|------|
-| `deep-research-prime` | clawhub | 对选定选题进行深度背景调研，生成研究报告 |
-| `arxiv-watcher` | clawhub | 追踪相关学术论文，获取前沿研究支撑 |
-| `hv-analysis` | GitHub | 横纵分析法深度研究（横向多维度对比 + 纵向时间线演变） |
-| `autoresearch` | clawhub | 自动化研究型搜索，迭代式获取所需信息 |
+| 技能 | 来源 | GitHub 地址 | 功能 |
+|------|------|-------------|------|
+| `deep-research-prime` | clawhub | <https://clawhub.dev/realroc/deep-research-prime> | 对选定选题进行深度背景调研，生成研究报告 |
+| `arxiv-watcher` | clawhub | <https://clawhub.dev/rubenfb23/arxiv-watcher> | 追踪相关学术论文，获取前沿研究支撑 |
+| `hv-analysis` | GitHub | <https://github.com/KKKKhazix/khazix-skills/tree/main/hv-analysis> | 横纵分析法深度研究（横向多维度对比 + 纵向时间线演变） |
+| `autoresearch` | clawhub | <https://clawhub.dev/thomas-security/autoresearch> | 自动化研究型搜索，迭代式获取所需信息 |
 
 ### 分组 ③ 内容生产（⚠️ 严格顺序执行）
 
-| 技能 | 来源 | 功能 |
-|------|------|------|
-| `marketing-skills` | clawhub | 提供写作框架和爆文结构模板，生成初稿 |
-| `content-ops` | clawhub | 内容质量审核，评分 ≥ 90 分才通过 |
-| `adversarial-review` | 本地 | 对抗式审核：写→挑→判循环，2-3 轮，评分 ≥ 8/10 |
-| `brand-voice` | clawhub | 品牌语调检查（5 项）：专业性、亲和力、权威感等 |
-| `humanizer` | 手动 | 去除 AI 痕迹，使文风更自然人性化 |
+| 技能 | 来源 | GitHub 地址 | 功能 |
+|------|------|-------------|------|
+| `marketing-skills` | clawhub | <https://clawhub.dev/jchopard69/marketing-skills> | 提供写作框架和爆文结构模板，生成初稿 |
+| `content-ops` | clawhub | <https://clawhub.dev/user/content-ops> | 内容质量审核，评分 ≥ 90 分才通过 |
+| `adversarial-review` | 本地 | — | 对抗式审核：写→挑→判循环，2-3 轮，评分 ≥ 8/10 |
+| `brand-voice` | clawhub | <https://clawhub.dev/mupengi-bot/brand-voice> | 品牌语调检查（5 项）：专业性、亲和力、权威感等 |
+| `humanizer` | 手动 | <https://github.com/walkor/humanizer> | 去除 AI 痕迹，使文风更自然人性化 |
 
 **⚠️ 顺序红线：** `content-ops` → `adversarial-review` → `brand-voice` → `humanizer`
 
@@ -56,21 +56,21 @@ skill_source: local_project
 
 ### 分组 ⑤ 记忆与增长
 
-| 技能 | 来源 | 功能 |
-|------|------|------|
-| `agent-memory` | 手动 | 长期记忆管理，沉淀创作经验 |
-| `self-improving` | 手动 | 自我改进与反思，记录错误和修正 |
-| `ontology` | 手动 | 本体管理，结构化知识图谱 |
-| `ai-growth-engine` | clawhub | AI 增长引擎，自动化内容优化建议 |
-| `neat-freak` | GitHub | 知识库洁癖同步，检查膨胀、清理残留 |
+| 技能 | 来源 | GitHub 地址 | 功能 |
+|------|------|-------------|------|
+| `agent-memory` | 手动 | — | 长期记忆管理，沉淀创作经验 |
+| `self-improving` | 手动 | — | 自我改进与反思，记录错误和修正 |
+| `ontology` | 手动 | — | 本体管理，结构化知识图谱 |
+| `ai-growth-engine` | clawhub | <https://github.com/KingOfZhao/AGI_PROJECT> | AI 增长引擎，自动化内容优化建议 |
+| `neat-freak` | GitHub | <https://github.com/KKKKhazix/khazix-skills/tree/main/neat-freak> | 知识库洁癖同步，检查膨胀、清理残留 |
 
 ### 分组 ⑥ 排版与发布
 
-| 技能 | 来源 | 功能 |
-|------|------|------|
-| `baoyu-markdown-to-html` | 手动 | Markdown → 微信公众号兼容 HTML，支持代码高亮、数学公式 |
-| `content-repurposer` | clawhub | 一文多平台适配（头条、小红书、知乎等） |
-| `baoyu-post-to-wechat` | 手动 | 推送文章到微信公众号 |
+| 技能 | 来源 | GitHub 地址 | 功能 |
+|------|------|-------------|------|
+| `baoyu-markdown-to-html` | 手动 | <https://github.com/nicefang/baoyu-markdown-to-html> | Markdown → 微信公众号兼容 HTML，支持代码高亮、数学公式 |
+| `content-repurposer` | clawhub | <https://clawhub.dev/audsmith28/content-repurposer> | 一文多平台适配（头条、小红书、知乎等） |
+| `baoyu-post-to-wechat` | 手动 | <https://github.com/nicefang/baoyu-post-to-wechat> | 推送文章到微信公众号 |
 
 ---
 
@@ -193,3 +193,4 @@ chiba neat-freak --sync --audit
 ## 更新日志
 
 - 2026-06-12：创建初始版本，整合 18 个技能到统一 skill
+- 2026-06-12：为每个技能补充 GitHub/clawhub 源地址
