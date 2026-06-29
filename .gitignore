@@ -1,0 +1,23 @@
+# 中间产物（draft 草稿、标题策略等不上传）
+draft_*.md
+title_strategy_*.md
+
+# 工作记忆
+.workbuddy/memory/
+.workbuddy/tasks/
+
+# 依赖目录
+node_modules/
+.clawhub/
+
+# 浏览器工具
+.playwright-cli/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 技能元数据（敏感信息）
+**/.easyclaw-metadata.json
+**/_skillhub_meta.json
